@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/gofiber/fiber/v2"
 	"github.com/jgndev/horsefacts-api/api/handler"
+	"github.com/jgndev/horsefacts-api/pkg/config"
 	"github.com/joho/godotenv"
 	"log"
 )
@@ -12,6 +13,8 @@ func init() {
 	if err != nil {
 		log.Println("No .env file found")
 	}
+
+	config.PrintConfigStatus()
 }
 
 func main() {

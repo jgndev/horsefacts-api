@@ -10,6 +10,7 @@ import (
 	"github.com/jgndev/horsefacts-api/pkg/types"
 	"log"
 	"math/rand"
+	"strconv"
 )
 
 func GetRandomFact(db interfaces.DynamoDbApi) (*types.Fact, error) {
@@ -84,11 +85,17 @@ func GetBreedById(db interfaces.DynamoDbApi, id string) (*types.Breed, error) {
 		log.Fatalf("Failed to read required configuration: %v", err.Error())
 	}
 
+	idInt, err := strconv.Atoi(id)
+	if err != nil {
+		log.Printf("Error converting id to int: %v", err.Error())
+		return nil, err
+	}
+
 	input := &dynamodb.GetItemInput{
 		TableName: aws.String(cfg.BreedsTable),
 		Key: map[string]*dynamodb.AttributeValue{
-			"id": {
-				S: aws.String(id),
+			"ID": {
+				N: aws.String(strconv.Itoa(idInt)),
 			},
 		},
 	}
