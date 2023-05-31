@@ -2,12 +2,12 @@ package reader
 
 import (
 	"encoding/json"
-	"github.com/jgndev/horsefacts-api/seed/types"
+	types2 "github.com/jgndev/horsefacts-api/pkg/types"
 	"log"
 	"os"
 )
 
-func ReadFactsFromJSON(filePath string) ([]types.Fact, error) {
+func ReadFactsFromJSON(filePath string) ([]types2.Fact, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
 		log.Fatalf("Error opening file contents for read: %v", err.Error())
@@ -20,7 +20,7 @@ func ReadFactsFromJSON(filePath string) ([]types.Fact, error) {
 		}
 	}(file)
 
-	var facts []types.Fact
+	var facts []types2.Fact
 	err = json.NewDecoder(file).Decode(&facts)
 	if err != nil {
 		log.Fatalf("Error decoding file contents to JSON: %v", err.Error())
@@ -30,7 +30,7 @@ func ReadFactsFromJSON(filePath string) ([]types.Fact, error) {
 	return facts, nil
 }
 
-func ReadBreedsFromJSON(filePath string) ([]types.Breed, error) {
+func ReadBreedsFromJSON(filePath string) ([]types2.Breed, error) {
 	file, err := os.Open(filePath)
 	if err != nil {
 		log.Fatalf("Error opening file contents for read: %v", err.Error())
@@ -43,7 +43,7 @@ func ReadBreedsFromJSON(filePath string) ([]types.Breed, error) {
 		}
 	}(file)
 
-	var breeds []types.Breed
+	var breeds []types2.Breed
 	err = json.NewDecoder(file).Decode(&breeds)
 	if err != nil {
 		log.Fatalf("Error decoding file contents to JSON: %v", err.Error())
