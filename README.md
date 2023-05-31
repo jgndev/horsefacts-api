@@ -38,3 +38,10 @@ aws dynamodb create-table \
     ReadCapacityUnits=5,WriteCapacityUnits=5
 ```
 go get github.com/spf13/viper
+
+
+```bash
+go build -o seed seed/seed.go
+seed/seed
+
+```
