@@ -4,9 +4,8 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/service/dynamodb"
 	"github.com/aws/aws-sdk-go/service/dynamodb/dynamodbattribute"
-	"github.com/jgndev/horsefacts-api/pkg/constants"
+	"github.com/jgndev/horsefacts-api/pkg/config"
 	"github.com/jgndev/horsefacts-api/seed/reader"
-	"github.com/spf13/viper"
 	"log"
 	"os"
 	"path/filepath"
@@ -18,10 +17,16 @@ const (
 )
 
 func SeedHorseFacts(db *dynamodb.DynamoDB) {
+
 	factsPath := filepath.Join(filepath.Dir(os.Args[0]), FactsFile)
 	facts, err := reader.ReadFactsFromJSON(factsPath)
 	if err != nil {
 		log.Fatalf("Failed to read HorseFacts from JSON: %s", err.Error())
+	}
+
+	cfg, err := config.GetConfig()
+	if err != nil {
+		log.Fatalf("Failed to read required configuration: %v", err.Error())
 	}
 
 	for _, fact := range facts {
@@ -32,7 +37,7 @@ func SeedHorseFacts(db *dynamodb.DynamoDB) {
 
 		input := &dynamodb.PutItemInput{
 			Item:      av,
-			TableName: aws.String(viper.GetString(constants.FactsTable)),
+			TableName: aws.String(cfg.FactsTable),
 		}
 
 		_, err = db.PutItem(input)
@@ -51,6 +56,11 @@ func SeedHorseBreeds(db *dynamodb.DynamoDB) {
 		log.Fatalf("Failed to read HorseBreeds from JSON: %s", err.Error())
 	}
 
+	cfg, err := config.GetConfig()
+	if err != nil {
+		log.Fatalf("Failed to read required configuration: %v", err.Error())
+	}
+
 	for _, breed := range breeds {
 		av, err := dynamodbattribute.MarshalMap(breed)
 		if err != nil {
@@ -59,7 +69,7 @@ func SeedHorseBreeds(db *dynamodb.DynamoDB) {
 
 		input := &dynamodb.PutItemInput{
 			Item:      av,
-			TableName: aws.String(viper.GetString(constants.BreedsTable)),
+			TableName: aws.String(cfg.BreedsTable),
 		}
 
 		_, err = db.PutItem(input)
