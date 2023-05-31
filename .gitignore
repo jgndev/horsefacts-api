@@ -1,0 +1,11 @@
+# Editors
+.vscode
+.idea
+
+# Environment files
+.env
+.env.*
+
+# Builds
+seed/seed
+main

@@ -1,0 +1,902 @@
+[
+  {
+    "ID": 1,
+    "Fact": "Horses have the largest eyes of any land mammal."
+  },
+  {
+    "ID": 2,
+    "Fact": "Horses can run shortly after birth."
+  },
+  {
+    "ID": 3,
+    "Fact": "Horses can sleep both lying down and standing up."
+  },
+  {
+    "ID": 4,
+    "Fact": "A horse’s teeth take up a larger amount of space in their head than their brain."
+  },
+  {
+    "ID": 5,
+    "Fact": "Horses have a highly developed sense of balance."
+  },
+  {
+    "ID": 6,
+    "Fact": "A horse's heart typically weighs between 6-10 pounds."
+  },
+  {
+    "ID": 7,
+    "Fact": "Horses can rotate their ears 180 degrees."
+  },
+  {
+    "ID": 8,
+    "Fact": "Horses typically have 205 bones in their skeleton."
+  },
+  {
+    "ID": 9,
+    "Fact": "A horse's hoof is analogous to a human's fingernail; it keeps growing and needs to be clipped."
+  },
+  {
+    "ID": 10,
+    "Fact": "Horses communicate their feelings through facial expressions."
+  },
+  {
+    "ID": 11,
+    "Fact": "Horses are herd animals with a clear hierarchy within the group."
+  },
+  {
+    "ID": 12,
+    "Fact": "Horses use their tails for communication and as a defense against flies and other insects."
+  },
+  {
+    "ID": 13,
+    "Fact": "Horses have been domesticated for over 5000 years."
+  },
+  {
+    "ID": 14,
+    "Fact": "Horses have a blind spot directly in front of them."
+  },
+  {
+    "ID": 15,
+    "Fact": "The four natural paces for a horse are walk, trot, canter, and gallop."
+  },
+  {
+    "ID": 16,
+    "Fact": "A horse’s teeth can give a good estimate of its age."
+  },
+  {
+    "ID": 17,
+    "Fact": "The average lifespan of a horse is between 25 to 30 years."
+  },
+  {
+    "ID": 18,
+    "Fact": "Horses have a strong sense of memory."
+  },
+  {
+    "ID": 19,
+    "Fact": "Horses have been used in warfare for thousands of years."
+  },
+  {
+    "ID": 20,
+    "Fact": "The gestation period for a horse is about 11 to 12 months."
+  },
+  {
+    "ID": 21,
+    "Fact": "Horses have been represented in art for thousands of years."
+  },
+  {
+    "ID": 22,
+    "Fact": "Horses are obligate nasal breathers, meaning they must breathe through their nostrils and cannot breathe through their mouths."
+  },
+  {
+    "ID": 23,
+    "Fact": "The fastest recorded sprinting speed of a horse was 55 mph."
+  },
+  {
+    "ID": 24,
+    "Fact": "Horses have been used in various therapeutic programs, including equine therapy and rehabilitation programs for individuals with physical, emotional, and developmental challenges and for prison inmates."
+  },
+  {
+    "ID": 25,
+    "Fact": "A horse's foot continues to grow until it is fully mature, which can take four to six years."
+  },
+  {
+    "ID": 26,
+    "Fact": "Horses have been used in various sports, including polo and equestrian events."
+  },
+  {
+    "ID": 27,
+    "Fact": "Horses have been integral to many cultures and have played key roles in historical events and development of trade routes."
+  },
+  {
+    "ID": 28,
+    "Fact": "Historically, horses have been used extensively for pulling wagons, carriages, and other transportation, as well as for farm work."
+  },
+  {
+    "ID": 29,
+    "Fact": "The word 'chivalry' comes from 'cheval,' the French word for horse."
+  },
+  {
+    "ID": 30,
+    "Fact": "Horses have three different types of gaits: walk, trot, and gallop."
+  },
+  {
+    "ID": 31,
+    "Fact": "Horses are measured in units called hands. One hand is equal to four inches."
+  },
+  {
+    "ID": 32,
+    "Fact": "Horses are capable of seeing nearly 360 degrees around them."
+  },
+  {
+    "ID": 33,
+    "Fact": "Horses have a unique digestive system, with a small stomach but very long intestines."
+  },
+  {
+    "ID": 34,
+    "Fact": "Horses are vegetarians and have a diet mostly based on grass and grains."
+  },
+  {
+    "ID": 35,
+    "Fact": "Horses are known for their agility and speed."
+  },
+  {
+    "ID": 36,
+    "Fact": "A horse’s hooves need to be cleaned regularly to prevent infection."
+  },
+  {
+    "ID": 37,
+    "Fact": "Horses are highly social animals."
+  },
+  {
+    "ID": 38,
+    "Fact": "Horses need to be dewormed regularly as they are prone to parasite infestations."
+  },
+  {
+    "ID": 39,
+    "Fact": "The largest organ in the horse's body is the skin."
+  },
+  {
+    "ID": 40,
+    "Fact": "A horse’s body contains 12 gallons of blood."
+  },
+  {
+    "ID": 41,
+    "Fact": "Horses can be trained to perform complex tasks."
+  },
+  {
+    "ID": 42,
+    "Fact": "The oldest known horse lived to be 62 years old."
+  },
+  {
+    "ID": 43,
+    "Fact": "Horses have been featured in many works of literature and film."
+  },
+  {
+    "ID": 44,
+    "Fact": "A horse's 'frog,' the part of the hoof that touches the ground, acts as a shock absorber and helps with circulation."
+  },
+  {
+    "ID": 45,
+    "Fact": "Horses can recognize their own reflection."
+  },
+  {
+    "ID": 46,
+    "Fact": "Horses have a well-developed sense of hearing."
+  },
+  {
+    "ID": 47,
+    "Fact": "Horses have whiskers on their noses and around their eyes which they use for sensing their environment."
+  },
+  {
+    "ID": 48,
+    "Fact": "A horse’s coat gets thicker in the winter to protect it from cold temperatures."
+  },
+  {
+    "ID": 49,
+    "Fact": "Horses can swim, although they are not naturally inclined to do so."
+  },
+  {
+    "ID": 50,
+    "Fact": "Horses can see better at night than humans can."
+  },
+  {
+    "ID": 51,
+    "Fact": "Horses have a unique 'stay apparatus' in their legs that allows them to sleep standing up without falling over."
+  },
+  {
+    "ID": 52,
+    "Fact": "Horses can't vomit due to the strength of the muscles around their esophagus."
+  },
+  {
+    "ID": 53,
+    "Fact": "Horses have a unique hoof mechanism that promotes blood circulation throughout their body."
+  },
+  {
+    "ID": 54,
+    "Fact": "Horses' large nostrils allow for increased airflow when running."
+  },
+  {
+    "ID": 55,
+    "Fact": "Horses have a keen sense of touch, thanks to the vibrissae around their nostrils and lips."
+  },
+  {
+    "ID": 56,
+    "Fact": "A horse’s hoof grows at a rate of about one centimeter per month."
+  },
+  {
+    "ID": 57,
+    "Fact": "Horses need daily exercise to maintain good health and spirits."
+  },
+  {
+    "ID": 58,
+    "Fact": "Horses have an excellent sense of direction."
+  },
+  {
+    "ID": 59,
+    "Fact": "Horses have an average resting heart rate of 30 to 40 beats per minute."
+  },
+  {
+    "ID": 60,
+    "Fact": "Horses can express mood, intent, or attention through ear position."
+  },
+  {
+    "ID": 61,
+    "Fact": "The design of many modern roads and highways was influenced by paths originally created for horse travel."
+  },
+  {
+    "ID": 62,
+    "Fact": "Horses can interpret human emotions and respond accordingly."
+  },
+  {
+    "ID": 63,
+    "Fact": "The teeth of horses never stop growing."
+  },
+  {
+    "ID": 64,
+    "Fact": "A horse’s lungs can hold up to 55 liters of air."
+  },
+  {
+    "ID": 65,
+    "Fact": "Horses have a relatively small stomach for their size, which is why they eat little and often."
+  },
+  {
+    "ID": 66,
+    "Fact": "Horses have 18 pairs of ribs."
+  },
+  {
+    "ID": 67,
+    "Fact": "The left and right sides of a horse's brain function independently, which means they may not recognize a person or object seen from the opposite side."
+  },
+  {
+    "ID": 68,
+    "Fact": "Horses have a high tolerance for pain, which can make it difficult to detect when they're injured."
+  },
+  {
+    "ID": 69,
+    "Fact": "In terms of biomechanics, horses can either 'pace' or 'trot' based on the sequence in which their legs move."
+  },
+  {
+    "ID": 70,
+    "Fact": "A horse's legs contain no muscle below the knees and hocks, only bones, tendons and ligaments."
+  },
+  {
+    "ID": 71,
+    "Fact": "The most common injuries in horses are to the legs and hooves."
+  },
+  {
+    "ID": 72,
+    "Fact": "Colic is a major cause of death in horses, it refers to any abdominal pain, but generally refers to gastrointestinal discomfort."
+  },
+  {
+    "ID": 73,
+    "Fact": "A horse's liver functions almost like a human's, filtering toxins from the body."
+  },
+  {
+    "ID": 74,
+    "Fact": "Horses, like humans, can suffer from allergies."
+  },
+  {
+    "ID": 75,
+    "Fact": "Horses have a 'flight response' when frightened, a holdover from when they were prey animals."
+  },
+  {
+    "ID": 76,
+    "Fact": "Horses cannot see all colors; they are red-green color blind similar to some humans."
+  },
+  {
+    "ID": 77,
+    "Fact": "Horses need a lot of water - they drink at least 25 gallons every day."
+  },
+  {
+    "ID": 78,
+    "Fact": "Horses have more bones in their necks than giraffes; they both have seven cervical vertebrae, but some of the horse's are bifurcated, which means they split in two."
+  },
+  {
+    "ID": 79,
+    "Fact": "Horses have a gland called the 'chestnut' on their legs, the function of which is unknown."
+  },
+  {
+    "ID": 80,
+    "Fact": "Horses don’t have a gall bladder."
+  },
+  {
+    "ID": 81,
+    "Fact": "Despite having a long and muscular back, horses' backs are relatively weak compared to their overall body strength."
+  },
+  {
+    "ID": 82,
+    "Fact": "The horse's brain weights about 22 ounces, roughly half the weight of a human brain."
+  },
+  {
+    "ID": 83,
+    "Fact": "A horse's skin is about 12-15% of its total body weight."
+  },
+  {
+    "ID": 84,
+    "Fact": "Horses' hooves are made from the same protein that comprises human hair and nails - keratin."
+  },
+  {
+    "ID": 85,
+    "Fact": "Horses have a gland in their eye socket called the 'Harderian gland' which helps clean and protect the eye."
+  },
+  {
+    "ID": 86,
+    "Fact": "The horse's intestines are about 90 feet long."
+  },
+  {
+    "ID": 87,
+    "Fact": "Horses have only one stomach, unlike cows, and it is small in size compared to their overall body size."
+  },
+  {
+    "ID": 88,
+    "Fact": "Horses can suffer from a variety of sleep disorders, including sleep apnea and narcolepsy."
+  },
+  {
+    "ID": 89,
+    "Fact": "The horse's spleen is a reservoir for red blood cells, releasing them when the horse is in 'flight mode' for extra oxygenation."
+  },
+  {
+    "ID": 90,
+    "Fact": "Horses are at risk of developing ulcers due to their high-stress nature and the high acidity of their stomach."
+  },
+  {
+    "ID": 91,
+    "Fact": "A horse's hock joint in its hind leg functions similarly to the human ankle, despite looking like it would be the equivalent to a knee."
+  },
+  {
+    "ID": 92,
+    "Fact": "Horses have a relatively slow breathing rate, averaging around 12-16 breaths per minute."
+  },
+  {
+    "ID": 93,
+    "Fact": "Horses are prone to certain eye issues, including equine recurrent uveitis (ERU) which is the most common cause of blindness in horses."
+  },
+  {
+    "ID": 94,
+    "Fact": "A horse's kidneys filter around 40-45 liters of blood every hour."
+  },
+  {
+    "ID": 95,
+    "Fact": "Horses can suffer from a condition known as 'heaves,' similar to asthma in humans, due to dust and mold spores."
+  },
+  {
+    "ID": 96,
+    "Fact": "Horses have more back problems than most animals because riders sit on their backs."
+  },
+  {
+    "ID": 97,
+    "Fact": "Horses are at risk of developing laminitis, a painful condition affecting the hooves."
+  },
+  {
+    "ID": 98,
+    "Fact": "Horses have a special 'trick' muscle, the panniculus, that allows them to shake off flies in a wave motion without using much energy."
+  },
+  {
+    "ID": 99,
+    "Fact": "A horse's brain is divided into left and right hemispheres like a human's, and each side operates independently."
+  },
+  {
+    "ID": 100,
+    "Fact": "Horses have unique dental patterns that can be used, similarly to fingerprints in humans, for identification."
+  },
+  {
+    "ID": 101,
+    "Fact": "Horses are used in various therapy programs as they can help improve physical, emotional, and social skills."
+  },
+  {
+    "ID": 102,
+    "Fact": "Horses can engage in 'mutual grooming' where two horses will stand next to each other and groom each other's coats."
+  },
+  {
+    "ID": 103,
+    "Fact": "A horse's teeth take up more space in their head than their brain."
+  },
+  {
+    "ID": 104,
+    "Fact": "Contrary to popular belief, horses do not swallow their tongues while running. This myth likely arose due to the use of tongue ties in horse racing."
+  },
+  {
+    "ID": 105,
+    "Fact": "A horse's heart can weigh up to 10 pounds."
+  },
+  {
+    "ID": 106,
+    "Fact": "The hyoid apparatus in a horse, which supports the tongue and larynx, is the only bone in the body not connected to any other bone."
+  },
+  {
+    "ID": 107,
+    "Fact": "Horses have a third eyelid called the nictitating membrane that helps protect and moisten the eye."
+  },
+  {
+    "ID": 108,
+    "Fact": "A horse's hoof will take 9-12 months to regrow completely if damaged."
+  },
+  {
+    "ID": 109,
+    "Fact": "A horse's 'frog,' the V-shaped part of the hoof, helps in shock absorption and circulation."
+  },
+  {
+    "ID": 110,
+    "Fact": "A healthy horse at rest will take in about 10 gallons of air per minute."
+  },
+  {
+    "ID": 111,
+    "Fact": "The age of a horse can be determined with some accuracy by examining its teeth."
+  },
+  {
+    "ID": 112,
+    "Fact": "A horse's lungs are so large that a human could fit inside them."
+  },
+  {
+    "ID": 113,
+    "Fact": "Horses are capable of producing about 10 gallons of saliva every day."
+  },
+  {
+    "ID": 114,
+    "Fact": "The smallest bone in a horse's body is the auditory ossicle in the ear."
+  },
+  {
+    "ID": 115,
+    "Fact": "Horses have been trained for various jobs, including police work and therapy work."
+  },
+  {
+    "ID": 116,
+    "Fact": "Horses sweat through their skin to cool down, just like humans."
+  },
+  {
+    "ID": 117,
+    "Fact": "Horses have a tendon in their leg known as the 'superficial digital flexor tendon' that acts as a spring for efficient running."
+  },
+  {
+    "ID": 118,
+    "Fact": "A horse's hair grows fastest in the summer."
+  },
+  {
+    "ID": 119,
+    "Fact": "Horses can see more colors than dogs or cats."
+  },
+  {
+    "ID": 120,
+    "Fact": "Horses can detect subtle changes in the position of a rider's body."
+  },
+  {
+    "ID": 121,
+    "Fact": "Horses played a crucial role in the development of modern postal systems, being the primary mode of transport for mail in the past."
+  },
+  {
+    "ID": 122,
+    "Fact": "The number of red blood cells in a horse's body is about three times that of a human."
+  },
+  {
+    "ID": 123,
+    "Fact": "Horses have 'hollow hairs' in their winter coats that help insulate them in cold weather."
+  },
+  {
+    "ID": 124,
+    "Fact": "Horses are extremely social animals and often bond closely with other horses in their herd. They can become distressed when separated from their companions."
+  },
+  {
+    "ID": 125,
+    "Fact": "Despite their large size, horses are quite capable jumpers."
+  },
+  {
+    "ID": 126,
+    "Fact": "Equine Assisted Psychotherapy (EAP) is a type of therapy that makes use of horses to help promote emotional growth and learning."
+  },
+  {
+    "ID": 127,
+    "Fact": "The horse's top speed is influenced by its stride length and stride frequency."
+  },
+  {
+    "ID": 128,
+    "Fact": "The horse's whiskers serve as sensory devices and help the horse to feel what's in its immediate environment."
+  },
+  {
+    "ID": 129,
+    "Fact": "Horses use their tail to signal their mood to other horses."
+  },
+  {
+    "ID": 130,
+    "Fact": "Horses are able to recognize their own reflection in a mirror."
+  },
+  {
+    "ID": 131,
+    "Fact": "Horses have played a significant role in warfare throughout history."
+  },
+  {
+    "ID": 132,
+    "Fact": "A horse's body contains about 80 liters of blood."
+  },
+  {
+    "ID": 133,
+    "Fact": "A horse's coat can become lighter or darker based on environmental factors, such as sun exposure."
+  },
+  {
+    "ID": 134,
+    "Fact": "Horses are vulnerable to both heat stroke and frostbite."
+  },
+  {
+    "ID": 135,
+    "Fact": "Horses have a 'stay apparatus' that allows them to relax muscles and rest while standing upright."
+  },
+  {
+    "ID": 136,
+    "Fact": "A horse's hocks are the equivalent of human ankles and heels."
+  },
+  {
+    "ID": 137,
+    "Fact": "A horse's teeth grind down over time, and can develop sharp edges if not filed or 'floated' regularly."
+  },
+  {
+    "ID": 138,
+    "Fact": "Horses have a structure in their throat called a larynx that helps them produce vocal sounds."
+  },
+  {
+    "ID": 139,
+    "Fact": "Horses have two soft tissue structures on either side of their neck called 'jugular furrows' where you can see the pulse."
+  },
+  {
+    "ID": 140,
+    "Fact": "When a horse's ears are pinned back flat, it usually means the horse is angry, annoyed or frightened."
+  },
+  {
+    "ID": 141,
+    "Fact": "In times of war, horses have been used to carry messages, pull artillery, supply wagons and provide reconnaissance."
+  },
+  {
+    "ID": 142,
+    "Fact": "Horses' hooves have a shock-absorbing structure known as the 'lateral cartilage.'"
+  },
+  {
+    "ID": 143,
+    "Fact": "The horse's 'frog' part of the hoof is thought to aid in circulation of blood."
+  },
+  {
+    "ID": 144,
+    "Fact": "Horses can contract Lyme disease from ticks."
+  },
+  {
+    "ID": 145,
+    "Fact": "When horses look like they're laughing, they're actually performing a special nose-enhancing technique known as 'flehmen' to determine whether a smell is good or bad."
+  },
+  {
+    "ID": 146,
+    "Fact": "A horse’s hoof is always growing and needs to be trimmed by a farrier every 6-8 weeks."
+  },
+  {
+    "ID": 147,
+    "Fact": "Horses have been used in therapeutic riding programs to help people with disabilities gain improved coordination, balance, and strength."
+  },
+  {
+    "ID": 148,
+    "Fact": "Horses played an important role in transportation throughout history, particularly before the invention of the steam engine."
+  },
+  {
+    "ID": 149,
+    "Fact": "In historical times, the value of a knight's warhorse could be as much as that of a small airplane today."
+  },
+  {
+    "ID": 150,
+    "Fact": "Horses are capable of making 17 distinct facial movements to express their feelings, a number higher than dogs (16), but less than humans (27)."
+  },
+  {
+    "ID": 151,
+    "Fact": "Wild horses typically gather in groups of 3 to 20 animals, led by a mature male, known as a 'stallion.'"
+  },
+  {
+    "ID": 152,
+    "Fact": "Feral horses are descendants of once-domesticated horses that have run free for generations."
+  },
+  {
+    "ID": 153,
+    "Fact": "Unlike domestic horses, wild horses roam vast distances and can cover up to 20 miles in a day searching for food."
+  },
+  {
+    "ID": 154,
+    "Fact": "The gestation period of wild horses is the same as domestic horses, about 11-12 months."
+  },
+  {
+    "ID": 155,
+    "Fact": "Wild horse populations have a 'harem structure,' with one stallion and multiple mares and their offspring."
+  },
+  {
+    "ID": 156,
+    "Fact": "In certain parts of the world, roundups are held to control the population of wild horses."
+  },
+  {
+    "ID": 157,
+    "Fact": "Wild horses are often identified by distinct markings or brands that are unique to their herd."
+  },
+  {
+    "ID": 158,
+    "Fact": "Wild horses have longer, rougher coats than their domestic counterparts due to exposure to varying weather conditions."
+  },
+  {
+    "ID": 159,
+    "Fact": "Unlike domestic horses, wild horses must forage for their food, which can include grasses, shrubs, and even tree bark."
+  },
+  {
+    "ID": 160,
+    "Fact": "The lifespan of wild horses is typically shorter than that of domestic horses due to harsh living conditions and lack of veterinary care."
+  },
+  {
+    "ID": 161,
+    "Fact": "Wild horses have been known to dig water holes in dry riverbeds to reach drinking water."
+  },
+  {
+    "ID": 162,
+    "Fact": "In many parts of the world, wild horses are considered a symbol of freedom and the spirit of the wilderness."
+  },
+  {
+    "ID": 163,
+    "Fact": "The behaviors and social structures of wild horse herds have been extensively studied as a model for understanding the dynamics of other social animals."
+  },
+  {
+    "ID": 164,
+    "Fact": "Young wild horse males, once ousted from their birth herd, often form 'bachelor herds' until they can acquire their own females."
+  },
+  {
+    "ID": 165,
+    "Fact": "Predators of wild horses include wolves, mountain lions, and bears."
+  },
+  {
+    "ID": 166,
+    "Fact": "The Przewalski's horse, native to Mongolia, is the only true wild horse species that exists today, with all others being feral descendants of domestic horses."
+  },
+  {
+    "ID": 167,
+    "Fact": "The Bureau of Land Management in the United States manages and protects wild horse and burro populations on public lands."
+  },
+  {
+    "ID": 168,
+    "Fact": "There are more than 60,000 wild horses in the United States, the majority of which are found in the Western states and Nevada."
+  },
+  {
+    "ID": 169,
+    "Fact": "Feral horses in North America are descendants of horses brought by European explorers and settlers."
+  },
+  {
+    "ID": 170,
+    "Fact": "The Australian Brumby, a feral horse, is named after James Brumby, a soldier and horse breeder in the early settlement of New South Wales."
+  },
+  {
+    "ID": 171,
+    "Fact": "Many wild horse populations are threatened by habitat loss due to human encroachment and development."
+  },
+  {
+    "ID": 172,
+    "Fact": "Wild horses have complex social structures and communication systems, which researchers are still working to fully understand."
+  },
+  {
+    "ID": 173,
+    "Fact": "Adoption programs exist to help manage wild horse populations and give captured wild horses a second chance at life in a domestic setting."
+  },
+  {
+    "ID": 174,
+    "Fact": "Wild horses will often roll in dust or mud to create a protective layer against insects."
+  },
+  {
+    "ID": 175,
+    "Fact": "Wild horses use 'stud piles,' or communal dung heaps, as a form of territorial marking."
+  },
+  {
+    "ID": 176,
+    "Fact": "Horses have the largest eyes among all land mammals."
+  },
+  {
+    "ID": 177,
+    "Fact": "Horse's eyes are positioned on the sides of their head, giving them a wide field of vision."
+  },
+  {
+    "ID": 178,
+    "Fact": "Horses can see nearly 360 degrees around them due to the placement of their eyes."
+  },
+  {
+    "ID": 179,
+    "Fact": "Despite their wide field of vision, horses have two blind spots: directly in front of them and directly behind them."
+  },
+  {
+    "ID": 180,
+    "Fact": "The horse's eyes can adjust to sudden changes in light, but it takes longer than it does for human eyes."
+  },
+  {
+    "ID": 181,
+    "Fact": "Horses see colors differently than humans. They can see blues and greens, but have difficulty distinguishing between yellows and greens and blues and grays."
+  },
+  {
+    "ID": 182,
+    "Fact": "Horses are believed to see in a similar way to red-green colorblind humans."
+  },
+  {
+    "ID": 183,
+    "Fact": "A horse’s eyesight is generally far-sighted, rather than near-sighted."
+  },
+  {
+    "ID": 184,
+    "Fact": "Horses use their ears to direct their gaze and focus on something specific."
+  },
+  {
+    "ID": 185,
+    "Fact": "The shape and size of a horse's eyes can affect its field of vision."
+  },
+  {
+    "ID": 186,
+    "Fact": "A horse's eye contains three eyelids: the upper, lower, and the third eyelid, also known as a nictitating membrane."
+  },
+  {
+    "ID": 187,
+    "Fact": "Horses have a reflective layer behind their retina called tapetum lucidum, which enhances their night vision."
+  },
+  {
+    "ID": 188,
+    "Fact": "A horse's eyes are more sensitive to movement than human eyes."
+  },
+  {
+    "ID": 189,
+    "Fact": "A healthy horse's eye is clear and bright, with no or minimal tearing."
+  },
+  {
+    "ID": 190,
+    "Fact": "Horses often use their sense of hearing in combination with their vision to identify potential threats."
+  },
+  {
+    "ID": 191,
+    "Fact": "The horse's cornea, the outer layer of the eye, is the largest of any land mammal and makes up a larger portion of the eye surface."
+  },
+  {
+    "ID": 192,
+    "Fact": "The large size of the horse's eye contributes to its sensitivity to dust, wind, and abrupt changes in light."
+  },
+  {
+    "ID": 193,
+    "Fact": "A horse's eye is surrounded by a protective bone called the orbital rim."
+  },
+  {
+    "ID": 194,
+    "Fact": "Horses can't focus their eyes like humans. They change focus by changing the angle of their heads."
+  },
+  {
+    "ID": 195,
+    "Fact": "There are several conditions and diseases that can affect a horse's eyesight, including cataracts, glaucoma, and uveitis."
+  },
+  {
+    "ID": 196,
+    "Fact": "Horses' eyes are expressive and can indicate their mood, much like their ears."
+  },
+  {
+    "ID": 197,
+    "Fact": "Some horses have blue eyes, a trait that is associated with certain coat patterns, like pintos."
+  },
+  {
+    "ID": 198,
+    "Fact": "When a horse is under stress or frightened, the whites of their eyes may become more visible."
+  },
+  {
+    "ID": 199,
+    "Fact": "The size and lateral placement of a horse's eyes can limit its depth perception."
+  },
+  {
+    "ID": 200,
+    "Fact": "Horses tend to rely more heavily on monocular vision (using each eye separately) rather than binocular vision (using both eyes together)."
+  },
+  {
+    "ID": 201,
+    "Fact": "The oldest known evidence of horse domestication dates back over 5,000 years to the Botai culture in present-day Kazakhstan."
+  },
+  {
+    "ID": 202,
+    "Fact": "The Arabian Peninsula is considered the birthplace of the Arabian horse, one of the oldest and most influential horse breeds in the world."
+  },
+  {
+    "ID": 203,
+    "Fact": "The countries with the highest number of horse breeds include the United States, which has a diverse range of breeds, followed by France and Germany."
+  },
+  {
+    "ID": 204,
+    "Fact": "The Lipizzaner horses, famous for their performances at the Spanish Riding School in Vienna, Austria, have been bred for over 400 years."
+  },
+  {
+    "ID": 205,
+    "Fact": "The Thoroughbred breed, known for its speed and agility, originated in 18th-century England through the selective breeding of Arabian, Barb, and Turkoman horses."
+  },
+  {
+    "ID": 206,
+    "Fact": "The Lusitano breed, native to Portugal, has a long history of being used in bullfighting and classical dressage due to its athleticism and agility."
+  },
+  {
+    "ID": 207,
+    "Fact": "The Friesian horse, originating in the Netherlands, has been selectively bred for over 800 years and is known for its striking black coat and majestic appearance."
+  },
+  {
+    "ID": 208,
+    "Fact": "The American Quarter Horse, developed in the United States, is the most popular breed in the country and is known for its versatility in Western riding disciplines."
+  },
+  {
+    "ID": 209,
+    "Fact": "The Caspian horse, believed to be one of the oldest breeds in the world, was rediscovered in 1965 in Iran after being thought extinct for centuries."
+  },
+  {
+    "ID": 210,
+    "Fact": "The culture of the Mongols was deeply connected to horses, and their breeding and horsemanship skills played a pivotal role in their military conquests in the 13th century."
+  },
+  {
+    "ID": 211,
+    "Fact": "The Andalusian horses, originating in Spain, were highly prized as war horses during the Renaissance period."
+  },
+  {
+    "ID": 212,
+    "Fact": "The Hanoverian breed, developed in Germany, is renowned for its success in Olympic equestrian sports, particularly dressage and show jumping."
+  },
+  {
+    "ID": 213,
+    "Fact": "The Icelandic Horse, bred in Iceland, is known for its unique fifth gait called the tölt, which provides a smooth and comfortable ride."
+  },
+  {
+    "ID": 214,
+    "Fact": "The Welsh Pony and Cob breed, hailing from Wales, has different sections based on height and type, including Section A, B, C, and D."
+  },
+  {
+    "ID": 215,
+    "Fact": "The Australian Stock Horse, bred in Australia, evolved from the sturdy horses brought by European settlers and played a vital role in Australian bush work."
+  },
+  {
+    "ID": 216,
+    "Fact": "The Appaloosa breed, developed by the Nez Perce Native American tribe in the United States, is known for its distinctive spotted coat patterns."
+  },
+  {
+    "ID": 217,
+    "Fact": "The Shire Horse, originating in the United Kingdom, is one of the largest horse breeds and was historically used for heavy pulling and agricultural work."
+  },
+  {
+    "ID": 218,
+    "Fact": "The Morgan horse, originating in the United States, is the first recognized American horse breed, known for its versatility and endurance."
+  },
+  {
+    "ID": 219,
+    "Fact": "The Hackney Horse breed, originating in the United Kingdom, is famous for its high-stepping trot and elegance, making it popular in carriage driving competitions."
+  },
+  {
+    "ID": 220,
+    "Fact": "The Selle Français, developed in France, is a versatile sport horse breed known for its success in show jumping, dressage, and eventing."
+  },
+  {
+    "ID": 221,
+    "Fact": "The Akhal-Teke, originating in Turkmenistan, is known for its striking metallic sheen coat and is often referred to as the 'golden horse.'"
+  },
+  {
+    "ID": 222,
+    "Fact": "The Belgian Draft horse, originating in Belgium, is a powerful and muscular breed often used for heavy draft work and pulling competitions."
+  },
+  {
+    "ID": 223,
+    "Fact": "The Camargue horse, native to the marshy regions of southern France, is an ancient breed known for its agility, endurance, and white or gray coat."
+  },
+  {
+    "ID": 224,
+    "Fact": "The Mustang, descended from Spanish horses brought to the Americas, roams freely in the wild and is protected by legislation in the United States."
+  },
+  {
+    "ID": 225,
+    "Fact": "The Azteca breed, developed in Mexico, is a versatile horse that combines characteristics of Andalusian and Quarter Horse, excelling in both dressage and ranch work."
+  }
+]
