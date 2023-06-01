@@ -53,9 +53,6 @@ func GetBreedHandler(c *fiber.Ctx) error {
 		log.Fatalf("Failed to read required configuration: %v", err.Error())
 	}
 
-	//sess, err := session.NewSession(&aws.Config{
-	//	Region: aws.String(cfg.AWSRegion),
-	//})
 	sess, err := session.NewSession(&aws.Config{
 		Region: aws.String(cfg.AWSRegion),
 		Credentials: credentials.NewStaticCredentials(
@@ -97,9 +94,6 @@ func GetBreedByIdHandler(c *fiber.Ctx) error {
 		log.Fatalf("Failed to read required configuration: %v", err.Error())
 	}
 
-	//sess, err := session.NewSession(&aws.Config{
-	//	Region: aws.String(cfg.AWSRegion),
-	//})
 	sess, err := session.NewSession(&aws.Config{
 		Region: aws.String(cfg.AWSRegion),
 		Credentials: credentials.NewStaticCredentials(
