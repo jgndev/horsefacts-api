@@ -2,11 +2,14 @@
 
 A REST API written in Go for retrieving facts about horses.
 
-### Go packages
-```
-go get github.com/aws/aws-lambda-go/events
-go get github.com/aws/aws-lambda-go/lambda
-```
+## Endpoints
+
+`/api/facts`
+
+`/api/breeds`
+
+`/api/breeds/{id}`
+
 
 ### Create the HorseFacts table
 
