@@ -1,29 +1,34 @@
-# Use the official golang image to create a build artifact.
-# This is based on Debian and sets the GOPATH to /go.
-# https://hub.docker.com/_/golang
-FROM golang:1.20 as builder
+# Start from the latest Golang base image
+FROM golang:1.20-buster as builder
 
-# Create and change to the app directory.
-WORKDIR /src
+# Set the Current Working Directory inside the container
+WORKDIR /app
 
-# Retrieve application dependencies.
-# This allows the container build to reuse cached dependencies.
+# Copy go mod and sum files
 COPY go.mod go.sum ./
+
+# Download all dependencies.
+# Dependencies will be cached if the go.mod and go.sum files are not changed
 RUN go mod download
 
-# Copy local code to the container image.
-COPY . ./
+# Copy the source from the current directory to the Working Directory inside the container
+COPY . .
 
-# Build the binary.
-RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build -v -o server
+# Build the Go app
+RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .
 
-# Use a Docker multi-stage build to create a lean production image.
-# https://docs.docker.com/develop/develop-images/multistage-build/#use-multi-stage-builds
-FROM gcr.io/distroless/base-debian10
-COPY --from=builder /src/server /server
+###################
+# Second stage #
+###################
+FROM debian:buster-slim
 
-# Run the server binary.
-CMD ["/server"]
+WORKDIR /root/
 
-# Expose port 8080 to the outside world
+# Copy the pre-built binary file from the previous stage.
+COPY --from=builder /app/main .
+
+# This container exposes port 8080 to the outside world
 EXPOSE 8080
+
+# Run the binary program produced by ‘go install’
+CMD ["./main"]
