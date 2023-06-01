@@ -1,3 +1,6 @@
+############################################################
+# First stage
+############################################################
 # Start from the latest Golang base image
 FROM golang:1.20-buster as builder
 
@@ -17,18 +20,21 @@ COPY . .
 # Build the Go app
 RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix cgo -o main .
 
-###################
+############################################################
 # Second stage #
-###################
+############################################################
 FROM debian:buster-slim
 
-WORKDIR /root/
+WORKDIR /app
 
 # Copy the pre-built binary file from the previous stage.
 COPY --from=builder /app/main .
+
+# Install certificates
+RUN apt-get update && apt-get install -y ca-certificates && rm -rf /var/lib/apt/lists/*
 
 # This container exposes port 8080 to the outside world
 EXPOSE 8080
 
 # Run the binary program produced by ‘go install’
-CMD ["./main"]
+ENTRYPOINT ["/app/main"]
