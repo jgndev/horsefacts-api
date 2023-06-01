@@ -20,6 +20,7 @@ func init() {
 func main() {
 	app := fiber.New()
 
+	app.Get("/", handler.GetHealthHandler)
 	app.Get("/api/facts", handler.GetFactHandler)
 	app.Get("/api/breeds", handler.GetBreedHandler)
 	app.Get("/api/breeds/:id", handler.GetBreedByIdHandler)

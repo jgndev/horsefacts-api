@@ -12,6 +12,12 @@ import (
 	"log"
 )
 
+func GetHealthHandler(c *fiber.Ctx) error {
+	return c.Status(fiber.StatusOK).JSON(fiber.Map{
+		"status": "ok",
+	})
+}
+
 func GetFactHandler(c *fiber.Ctx) error {
 
 	cfg, err := config.GetConfig()
