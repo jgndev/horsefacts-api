@@ -13,7 +13,7 @@ import (
 	"strconv"
 )
 
-func GetRandomFact(db interfaces.DynamoDbApi) (*types.Fact, error) {
+func GetRandomFact(db interfaces.DynamoDbInterface) (*types.Fact, error) {
 	cfg, err := config.GetConfig()
 	if err != nil {
 		log.Fatalf("Failed to read required configuration: %v", err.Error())
@@ -46,7 +46,7 @@ func GetRandomFact(db interfaces.DynamoDbApi) (*types.Fact, error) {
 	return &fact, nil
 }
 
-func GetRandomBreed(db interfaces.DynamoDbApi) (*types.Breed, error) {
+func GetRandomBreed(db interfaces.DynamoDbInterface) (*types.Breed, error) {
 	cfg, err := config.GetConfig()
 	if err != nil {
 		log.Fatalf("Failed to read required configuration: %v", err.Error())
@@ -79,7 +79,7 @@ func GetRandomBreed(db interfaces.DynamoDbApi) (*types.Breed, error) {
 	return &breed, nil
 }
 
-func GetBreedById(db interfaces.DynamoDbApi, id string) (*types.Breed, error) {
+func GetBreedById(db interfaces.DynamoDbInterface, id string) (*types.Breed, error) {
 	cfg, err := config.GetConfig()
 	if err != nil {
 		log.Fatalf("Failed to read required configuration: %v", err.Error())
