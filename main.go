@@ -1,11 +1,13 @@
 package main
 
 import (
+	"log"
+
 	"github.com/gofiber/fiber/v2"
+	"github.com/gofiber/fiber/v2/middleware/cors"
 	"github.com/jgndev/horsefacts-api/api/handler"
 	"github.com/jgndev/horsefacts-api/pkg/config"
 	"github.com/joho/godotenv"
-	"log"
 )
 
 func init() {
@@ -19,6 +21,11 @@ func init() {
 
 func main() {
 	app := fiber.New()
+
+	app.Use(cors.New(cors.Config{
+		AllowOrigins: "*",
+		AllowMethods: "GET,OPTIONS",
+	}))
 
 	app.Get("/", handler.GetHealthHandler)
 	app.Get("/api/facts", handler.GetFactHandler)
